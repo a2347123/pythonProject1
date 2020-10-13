@@ -1,0 +1,12 @@
+def decToBin(dec_value):
+    if dec_value>1:
+        decToBin(dec_value//2)
+    print(dec_value%2,end="")
+
+numCount = input("请输入二进制数的位数：")
+for num in range(2**int(numCount)):
+    print("格式一：",end="")
+    decToBin(num)
+    print()
+    print("格式二：", end="")
+    print(bin(num))
