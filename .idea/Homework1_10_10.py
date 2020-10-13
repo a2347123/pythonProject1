@@ -18,3 +18,4 @@ for bottomRow in range(1,int(num)//2+1):#循环打印下半部分
     for rightBlack in range(bottomRow):#循环打印下半部分每一行的右边的空格
         print(" ",end="")
     print()#下半部分每一行打印结束后换行
+    ##我在这里修改了Github
